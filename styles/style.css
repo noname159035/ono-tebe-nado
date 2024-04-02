@@ -49,6 +49,9 @@ header{
     margin-top: 1px;
     margin-right: 16.5px;
     margin-left: 16px;
+}
+
+.list-style {
     list-style: circle;
 }
 
@@ -72,19 +75,20 @@ header{
     margin-left: 27px;
 }
 
-.header_data {
+.header_footer_data {
     list-style-type:  none;
     max-width: 240px;
     height: auto;
     margin-top: 1px;
     margin-left: auto;
+    font-style: normal;
 }
 
-.header_data ul {
+.header_footer_data ul {
     list-style: none;
 }
 
-.header_data li {
+.header_footer_data li {
     margin-bottom: 5px;
 }
 
@@ -111,16 +115,15 @@ header{
     display: flex;
 }
 
-.aligned-text p:first-child {
+.aligned-text span:first-child {
     margin-right: 30px;
 }
 
 .cover_title {
     color: white;
-}
-
-.cover_title h1{
     font-size: 100px;
+    text-transform: uppercase;
+    display: block;
 }
 
 .cover_center_title {
@@ -135,6 +138,8 @@ header{
     margin-top: 3px;
 
 }
+
+
 
 .letter-spacing-extended {
     letter-spacing: 30px;
@@ -177,6 +182,7 @@ header{
     font-size: 40px;
     font-family: Raleway,  sans-serif;
     margin-bottom: 26px;
+    text-transform: uppercase;
 }
 
 .lots_row {
@@ -190,6 +196,7 @@ header{
     display: flex;
     flex-direction: column;
     width: 334px;
+    flex-grow: 1;
     height: 563px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -262,10 +269,11 @@ header{
 
 .about__title_cont {
     display: grid;
-    width: 688px;
-    grid-template-rows: 146px 144px;
+    max-width: 688px;
+    grid-template-rows: auto 144px;
     padding-top: 137px;
     padding-left: 1px;
+    gap: 100px;
 }
 
 .about_cont_text {
@@ -330,22 +338,23 @@ header{
     display: flex;
     justify-content: space-between;
     margin-top: 2px;
-    width: 240px;
+    /*width: 240px;*/
+    gap: 48px;
 }
 
 .header_social_img {
     height: 48px;
 }
 
-.lots_img_1 {
+.lots_img_summer {
     background-image: url('../images/card-lot-01.jpg');
 }
 
-.lots_img_2 {
+.lots_img_door {
     background-image: url('../images/card-lot-02.jpg');
 }
 
-.lots_img_3 {
+.lots_img_figure {
     background-image: url('../images/card-lot-03.jpg');
 }
 
