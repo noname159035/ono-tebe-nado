@@ -18,10 +18,10 @@ li {
 header{
     margin-top: 92px;
     margin-left: 24px;
-    margin-right: 24px;
+    margin-right: 37px;
     margin-bottom: 93px;
     padding-right: 49px;
-    padding-left: 26.5px;
+    padding-left: 11px;
     display: flex;
     /*justify-content: ;*/
     align-items: center;
@@ -54,20 +54,6 @@ header{
 .list-style {
     list-style: circle;
 }
-
-
-
-/*.header_menu li:not(:first-child)::before {*/
-/*    content: '';*/
-/*    width: 7px;*/
-/*    height: 7px;*/
-/*    border: 1px solid black;*/
-/*    border-radius: 50%;*/
-/*    display: inline-block;*/
-/*    margin-right: 12px;*/
-/*    background-color: transparent;*/
-/*    margin-left: 0px;*/
-/*}*/
 
 .header_image {
     height: 105px;
