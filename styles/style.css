@@ -49,6 +49,7 @@ header{
     margin-top: 1px;
     margin-right: 16.5px;
     margin-left: 16px;
+    pointer-events: none
 }
 
 .list-style {
@@ -310,6 +311,7 @@ header{
 
 .footer__menu-list a {
     color:black;
+    pointer-events: none;
 }
 
 .not_under {
